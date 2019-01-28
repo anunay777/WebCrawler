@@ -10,7 +10,7 @@ def removeSpaces(string):
     return string  
 f1 = csv.writer(open('word.csv','w+'))
 f1.writerow(['Affix', 'Root Word', 'Full Word'])
-url=[r'https://en.wiktionary.org/wiki/Category:English_prefixes']
+url=[r'https://en.wiktionary.org/wiki/Category:English_adjective-forming_suffixes',r'https://en.wiktionary.org/wiki/Category:English_adverb-forming_suffixes',r'https://en.wiktionary.org/wiki/Category:English_noun-forming_suffixes',r'https://en.wiktionary.org/wiki/Category:English_verb-forming_suffixes',r'https://en.wiktionary.org/wiki/Category:English_prefixes']
 g={}
 affix_count=0
 count=0
